@@ -1,10 +1,302 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
-  </head>
-  <body>
-    ― Hello World! &#x1F609;
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Résumé</title>
+  <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+  <link rel="stylesheet" href="css/splide.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My very own personal website.">
+</head>
+
+<body>
+  <main>
+    <article>
+      <div class="page" style="border-color: #ccc;">
+        <div class="stackable grid">
+          <div class="row">
+            <div class="three wide center aligned column">
+              <div class="avatar-wrapper">
+                <img src="assets/images/avatar.jpg" class="avatar avatar--rounded"
+                  aria-label="My profile picture"></object>
+              </div>
+            </div>
+            <div class="thirteen wide column">
+              <div class="stackable grid">
+                <div class="sixteen wide column">
+                  <h1 class="name">Leon Dame</h1>
+                  <div class="job">haute couture model</div>
+                  <ul class="contacts">
+                    <li>
+                      <a href="https://www.instagram.com/leondame/" rel="author" class="instagram">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+                          class="icon svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                          </path>
+                        </svg>
+                        <span>leondame</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/vivamodel/" rel="author" class="instagram">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+                          class="icon svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                          </path>
+                        </svg>
+                        <span>vivamodel</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="tel:+442034871240" rel="author" class="phone">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                          <path
+                            d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z">
+                          </path>
+                        </svg>
+                        <span>+44 203 487 1240</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://viva-paris.com/" rel="author" class="website">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                          <path fill="currentColor"
+                            d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z">
+                          </path>
+                        </svg>
+                        <span>http://viva-paris.com/</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="sixteen wide mobile only column">
+                  <div class="divider"></div>
+                </div>
+                <div class="sixteen wide column">
+                  <h2>Résumé</h2>
+                  <p>&mdash; I'm a haute couture model. Creativity is my passion. I’m really interested in theatre. I’m
+                    pretty open to a lot of things, which makes me enjoy fashion and making new experiences within it.
+                    My approach to life has proved favourable amongst clients in the fashion world. Brands like Maison
+                    Margiela and Louis Vuitton constantly include me in projects. I'm represented by Viva Model
+                    Management.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sixteen wide column">
+              <div class="fat divider"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="ten wide column">
+              <h3>Experience</h3>
+              <ul class="timeline">
+                <li>
+                  <p>
+                    <em>
+                      2015
+                    </em>
+                  </p>
+                  <p>
+                    Began studying Theatre Theory and Politics at the Freie Universität in Berlin.
+                  </p>
+                  <p>
+                    The same year was scouted while waiting for a bus, and signed the contract with the German agency
+                    Tomorrow Is Another Day. The next 5 years allow building up my modelling proficiency and become
+                    reputable within the world of fashion.
+                  </p>
+                  <p>
+                    Also in 2015, participated in the first runway show for Sacai.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <em>
+                      2019
+                    </em>
+                  </p>
+                  <p>
+                    Came one of the biggest moments. I was personally chosen by John Galliano to close out the Maison
+                    Margiela show. After the show became a prominent figure and consistent face in the industry.
+                  </p>
+                  <p>
+                    Became Breakout Star by The Models.com - Model of the Year Industry Awards as a newcomer to the
+                    fashion industry.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <em>
+                      2020
+                    </em>
+                  </p>
+                  <p>
+                    Became one of the Top 50 male models.
+                  </p>
+                </li>
+              </ul>
+              <div class="timeline_image">
+                <img src="assets/images/leon_runaway.jpg" alt="Leon runway">
+              </div>
+              <h5>
+                Worked with:
+              </h5>
+              <ul class="timeline">
+                <li>
+                  <ul>
+                    <li>Acne Studios
+                    </li>
+                    <li>Alexander McQueen
+                    </li>
+                    <li>Bottega Veneta
+                    </li>
+                    <li>Burberry</li>
+                    <li>Christian Dada
+                    </li>
+                    <li>Christopher Raeburn
+                    </li>
+                    <li>Damir Doma
+                    </li>
+                    <li>Ermenegildo Zegna
+                    </li>
+                    <li>Fendi</li>
+                    <li>Feng Chen Wang
+                    </li>
+                    <li>Fila</li>
+                    <li>Givenchy</li>
+                    <li>GQ Style China
+                    </li>
+                    <li>Gucci</li>
+                    <li>Hermès</li>
+                    <li>Hugo Boss
+                    </li>
+                    <li>Isabel Marant
+                    </li>
+                    <li>John Galliano
+                    </li>
+                    <li>Just Cavalli
+                    </li>
+                    <li>Kenzo</li>
+                    <li>L'Uomo Vogue
+                    </li>
+                    <li>Lacoste</li>
+                    <li>Lanvin</li>
+                    <li>Louis Vuitton
+                    </li>
+                    <li>Maison Margiela
+                    </li>
+                    <li>Models.com
+                    </li>
+                    <li>Roberto Cavalli
+                    </li>
+                    <li>Sacai</li>
+                    <li>Tommy Hilfiger
+                    </li>
+                    <li>Uniqlo</li>
+                    <li>Valentino</li>
+                    <li>Vogue Hommes
+                    </li>
+                    <li>Zara</li>
+                  </ul>
+                </li>
+              </ul>
+              <h3>Portfolio</h3>
+              <div id="image-slider" class="splide portfolio-slider">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img src="assets/images/slider/522784-min.jpg" alt="Leon runway">
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/images/slider/GettyImages-1177105046-min.jpg" alt="Leon runway">
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/images/slider/LeonDame2-VogueInt-26Sept19-GEttyImages-min.jpg" alt="Leon runway">
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/images/slider/7d32a7e31ec0aca2380d394d09d015b6-min.jpg" alt="Leon runway">
+                    </li>
+                    <li class="splide__slide">
+                      <img src="assets/images/slider/leon-dame-glare-26-09-2019-min.jpg" alt="Leon runway">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3>Runway collection</h3>
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/By5Pcaw9Uw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="six wide column">
+              <section>
+                <h3>Languages</h3>
+                <p class="tags small"><span class="language" lang="de"><span class="small-lang-character">DE</span>
+                    DEUTSCH</span> <span class="language" lang="en"><span class="small-lang-character">EN</span>
+                    ENGLISH</span></p>
+              </section>
+              <section>
+                <h3>BIO</h3>
+                <ul class="body-params">
+                  <li>
+                    <p class="name">
+                      Hair
+                    </p>
+                    <p class="value">
+                      Blonde
+                    </p>
+                  </li>
+                  <li>
+                    <p class="name">
+                      Eyes
+                    </p>
+                    <p class="value">
+                      Brown
+                    </p>
+                  </li>
+                  <li>
+                    <p class="name">
+                      Height (cm)
+                    </p>
+                    <p class="value">
+                      188
+                    </p>
+                  </li>
+                  <li>
+                    <p class="name">
+                      Shoe (us)
+                    </p>
+                    <p class="value">
+                      11
+                    </p>
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <h3>Articles</h3>
+                <p><a href="https://www.vogue.co.uk/fashion/article/meet-leon-dame-maison-margiela-paris-fashion-week"
+                    class="link-underlined" target="__blank">VOGUE</a></p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+  <script defer src="js/splide.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new Splide('#image-slider', {
+        pagination: false,
+        rewind: true
+      }).mount();
+    });
+  </script>
+</body>
+
 </html>
