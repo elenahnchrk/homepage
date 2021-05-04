@@ -3,6 +3,14 @@
     font-weight: bold;
 }
 
+.instagram:hover svg path {
+    fill: #8a3ab9;
+}
+
+.website:hover svg path {
+    fill: #4267B2;
+}
+
 .body-params {
     list-style: none;
     max-width: 100px;
@@ -45,4 +53,43 @@
 .link-underlined {
     text-decoration: underline;
     color: #000;
+}
+
+.avatar--rounded {
+    border-radius: 50%;
+    max-width: 130px;
+    max-height: 130px;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+}
+
+.contacts li a.website {
+    display: block;
+}
+
+.timeline_image {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.timeline_image img {
+    width: 100%;
+}
+
+/* slider */
+
+.portfolio-slider {
+    margin-bottom: 1rem;
+}
+
+.splide__slide img {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .avatar--rounded {
+        max-width: 80px;
+        max-height: 80px;
+    }
 }
